@@ -7,11 +7,17 @@ Bu proje, Acunmedya Akademi'nin "C# Programlama Eğitimi" kapsamında, Murat Yü
 ⚡#Projede Kullanılan Teknolojiler
 
 📌 Model-View-Controller (MVC) Yapısı: Katmanlı mimari sayesinde düzenli ve sürdürülebilir bir kod yapısı sunar.
+
 📌 ASP.NET MVC Framework: Web uygulamaları geliştirmek için güçlü ve esnek bir yapı sağlar.
+
 📌 Entity Framework (Db First): Veritabanı işlemlerini kolaylaştıran ve yönetimi pratik hale getiren ORM aracı.
+
 📌 CRUD İşlemleri (Create, Read, Update, Delete): Verilerin eklenmesi, görüntülenmesi, güncellenmesi ve silinmesini sağlar.
+
 📌 LINQ Sorguları: Verilere hızlı ve etkili erişim sağlar.
+
 📌 Layout ve Partial View Kullanımı: Esnek ve dinamik bir kullanıcı arayüzü oluşturur.
+
 📌 Bootstrap: Modern ve responsive tasarım için kullanılan popüler bir stil kütüphanesi.
 
 ✅Ana Sayfa
