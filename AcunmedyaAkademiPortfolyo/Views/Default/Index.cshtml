@@ -1,0 +1,86 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@Html.Action("PartialHead","Default")
+<body class="index-page">
+
+    @Html.Action("PartialSidebar","Default")
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        @Html.Action("PartialHeroSection","Default")
+
+
+
+        <!-- /Hero Section -->
+        <!-- About Section -->
+        @Html.Action("PartialAbout","Default")          <!-- Lazım -->
+        <!-- /About Section -->
+
+
+        <!-- Stats Section -->
+        @Html.Action("PartialStatistic","Default")
+    <!-- /Stats Section --> 
+
+
+
+        <!-- Skills Section -->
+        @Html.Action("PartialSkill","Default")
+
+        <!-- /Skills Section -->
+        <!-- Resume Section -->
+        <section id="resume" class="resume section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Öz Geçmiş</h2>
+                <p>Eğitim hayatım ve kazandığım deneyimler hakkında daha fazla bilgiye aşağıdan ulaşabilirsiniz. Aldığım akademik eğitim, katıldığım projeler ve edindiğim tecrübelerle kendimi sürekli geliştirmeye çalışıyorum. Hem teknik hem de sosyal becerilerimi ilerletmek için çeşitli etkinliklerde ve projelerde aktif rol alıyorum. Detaylı bilgilere aşağıda yer alan bölümlerden ulaşabilirsiniz.</p>
+            </div><!-- End Section Title -->                                                               
+                                                                                                                                                                                                                                                             
+            <div class="container">
+
+                <div class="row">
+
+                    @Html.Action("PartialEducation","Default")
+
+                    @Html.Action("PartialExperience","Default")
+                </div>
+
+            </div>
+
+        </section><!-- /Resume Section -->
+
+
+        <!-- Portfolio Section -->
+        @Html.Action("PartialProject","Default")
+    <!-- /Portfolio Section -->
+
+
+        <!-- Services Section -->
+        @Html.Action("PartialServices","Default")
+    <!-- /Services Section -->
+
+
+        <!-- Testimonials Section -->
+        @Html.Action("PartialTestimonials","Default")
+    <!-- /Testimonials Section -->
+
+        <!-- Contact Section -->
+        @Html.Action("PartialMessage","Default")
+        <!-- /Contact Section -->
+
+    </main>
+   
+    @Html.Action("PartialSocialMedia","Default")
+
+  @Html.Action("PartialScripts","Default")
+
+</body>
+
+</html>

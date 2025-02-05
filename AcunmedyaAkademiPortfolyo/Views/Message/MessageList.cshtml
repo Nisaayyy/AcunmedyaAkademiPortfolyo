@@ -1,0 +1,37 @@
+﻿@model List<AcunmedyaAkademiPortfolyo.Models.TblMessage>
+@{
+    ViewBag.Title = "MessageList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h3>Mesajlarım</h3>
+
+<table class="table table-bordered">
+
+
+    <tr>
+        <th>Mesaj Id</th>
+        <th>Mesaj Adı</th>
+        <th>Mesaj Açıklaması</th>
+        <th>Mesaj İkonu</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.MessageId</td>
+            <td>@item.MesTitle</td>
+            <td>@item.MesDescription</td>
+            <td><img src="@item.MesIcon"</td>
+            <td><a href="/Message/DeleteMessage/@item.MessageId" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Message/UpdateMessage/@item.MessageId" class="btn btn-success">Güncelle</a></td>
+        </tr>
+    }
+
+</table>
+<a href="/Message/Message/" class="btn btn-primary">Yeni Mesaj Girişi</a>
+
+

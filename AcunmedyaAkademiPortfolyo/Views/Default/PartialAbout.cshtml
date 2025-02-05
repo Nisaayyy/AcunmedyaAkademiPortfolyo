@@ -1,0 +1,45 @@
+﻿@model List<AcunmedyaAkademiPortfolyo.Models.TblAboutID>
+
+<section id="about" class="about section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Hakkımda</h2>
+        <p>Benimle ilgili daha fazla bilgiye aşağıdan ulaşabilirsiniz. İlginiz için teşekkür ederim.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">            
+                <img src="/MyResume-1.0.0/assets/img/testimonials/nisa2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-8 content">
+                <h2>Yazılım Mühendisi</h2>
+                <p class="fst-italic py-3">
+                    Merhaba, ben Nisa. Haliç Üniversitesi Yazılım Mühendisliği 2. sınıf öğrencisiyim. Teknolojiye ve yazılıma olan ilgim doğrultusunda kendimi sürekli geliştirmeye çalışıyorum. Algoritmalar, mobil uygulama geliştirme ve web teknolojileri üzerine çalışıyor ve bu alanda uzmanlaşmayı hedefliyorum. Gelecekte yazılım dünyasında profesyonel projelerde yer almayı amaçlıyorum.
+                </p>
+
+                @foreach (var item in Model)
+                {
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Doğum Günü:</strong> <span>@item.AboutBirthday</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>@item.AboutEmail</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Eğitim:</strong> <span>@item.AboutEğitim</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Şehir:</strong> <span>@item.AboutCity</span></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                }
+
+               
+            </div>
+        </div>
+
+    </div>
+
+</section>

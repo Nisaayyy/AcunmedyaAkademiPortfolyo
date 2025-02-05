@@ -1,0 +1,35 @@
+﻿@model List<AcunmedyaAkademiPortfolyo.Models.TblCategory>
+
+@{ 
+    ViewBag.Title = "CategoryList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h3>Nisa Ayata</h3>
+
+<table class="table table-bordered">
+
+
+    <tr>
+        <th>Kategori Id</th>
+        <th>Kategori Adı</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.Categoryld</td>
+            <td>@item.CategoryName</td>
+            <td><a href="/Category/DeleteCategory/@item.Categoryld" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Category/UpdateCategory/@item.Categoryld" class="btn btn-success">Güncelle</a></td>
+        </tr>
+    }
+
+</table>
+<a href="/Category/CreateCategory/" class="btn btn-primary">Yeni Kategori Girişi</a>
+
+
+

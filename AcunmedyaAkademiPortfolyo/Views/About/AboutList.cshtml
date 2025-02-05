@@ -1,0 +1,38 @@
+﻿@model List<AcunmedyaAkademiPortfolyo.Models.TblAboutID>
+@{
+    ViewBag.Title = "AboutList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h3>Hakkımdakiler</h3>
+
+<table class="table table-bordered">
+
+
+    <tr>
+        <th>Hakkımda Id</th>
+        <th>Doğum günü</th>
+        <th>Şehir</th>
+        <th>Email</th>
+        <th>Eğitim</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.AboutID</td>
+            <td>@item.AboutBirthday</td>
+            <td>@item.AboutCity</td>
+            <td>@item.AboutEmail</td>
+            <td>@item.AboutEğitim</td>
+            <td><a href="/About/DeleteAbout/@item.AboutID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/About/UpdateAbout/@item.AboutID" class="btn btn-success">Güncelle</a></td>
+        </tr>
+    }
+
+</table>
+<a href="/About/CreateAbout/" class="btn btn-primary">Yeni Bilgi Girişi</a>
+

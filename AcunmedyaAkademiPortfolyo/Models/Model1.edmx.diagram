@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f994808937d34872beb15eed46dc8d76" Name="Diagram1">
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TableSkillD" Width="1.5" PointX="2.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TableTestimonial" Width="1.5" PointX="4.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblCategory" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblEducation" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblExperience" Width="1.5" PointX="6.875" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblMessage" Width="1.5" PointX="9.125" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblProject" Width="1.5" PointX="3.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblService" Width="1.5" PointX="8.25" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="DBacunmedyaakademi1Model.FK_TblProject_TblCategory" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblAboutID" Width="1.5" PointX="10.625" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblSocialMedia" Width="1.5" PointX="11.75" PointY="4.125" />
+        <EntityTypeShape EntityType="DBacunmedyaakademi1Model.TblStatistic" Width="1.5" PointX="13" PointY="1.125" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
