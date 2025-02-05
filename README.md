@@ -20,11 +20,17 @@ Bu proje, Acunmedya Akademi'nin "C# Programlama Eğitimi" kapsamında, Murat Yü
 
 📌 Bootstrap: Modern ve responsive tasarım için kullanılan popüler bir stil kütüphanesi.
 
+⚡#Projemden Bazı Kesitler
+
 ✅Ana Sayfa
+
 ![Image](https://github.com/user-attachments/assets/52d9dde1-855d-4f87-883a-78994ea5c493)
 ✅Hakkımda 
+
 ![Image](https://github.com/user-attachments/assets/b637f791-45fd-463c-bc50-079e7ff7a9f0)
 ✅Eğitimim ve Deneyimlerim 
+
 ![Image](https://github.com/user-attachments/assets/46186f2a-4f63-47b6-b28a-3b55142575b2)
 ✅Referanslarım 
+
 ![Image](https://github.com/user-attachments/assets/3e89f5e9-223c-4b29-a45c-77f6e49a8cf1)
